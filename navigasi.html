@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HOME</title>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+body{
+		background-color: #000000;
+		background-repeat:no-repeat;
+		background-size:cover;
+}
+.navbar-inverse{
+		background-color: #000000;
+}
+.navbar-brand{
+		font-family: cursive;
+}
+.container h6{
+			color:#fafafa;
+			font-family: sans-serif;
+			font-size: 15px;
+			text-align: left;
+}
+.container{
+		background-color: #000000;
+}
+.row h3{
+			color:#fafafa;
+			font-family: cursive;
+			font-size: 20px;
+			text-align: center;
+}
+.list-group{
+		color:#000000;
+		font-family: sans-serif;
+		font-size: 15px;
+		text-align: left;
+}
+.footer body{
+		background-color: #fafafa;
+		color:#000000;
+}
+</style>
+</head>
+<body>
+		<div class="row">
+			<div class="col-md-12">	
+				  <div class="carousel slide" id="contoh-carousel" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#contoh-carousel" data-slide-to="0" class="active"></li>
+							<li data-target="#contoh-carousel" data-slide-to="1"></li>
+							<li data-target="#contoh-carousel" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img src="images/steak1.jpg" alt="Keterangan Gambar satu">
+								<div class="carousel-caption">
+							</div>
+						</div>
+							<div class="item">
+								<img src="images/steak2.jpg" alt="Keterangan Gambar dua">
+								<div class="carousel-caption">
+						 	</div>
+						</div>
+							<div class="item">
+								<img src="images/steak3.jpg" alt="Keterangan Gambar tiga">
+								<div class="carousel-caption">
+							</div>
+						</div>
+						<a class="left carousel-control" href="#contoh-carousel" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Prev</span>
+						</a>
+						<a class="right carousel-control" href="#contoh-carousel" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+			</div>
+		</div>
+	</div>
+	<nav class="navbar navbar-inverse">
+	<div class="container">
+	<div class="row">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle Nav</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand"><strong>MY CAFFE</strong></a>
+		</div>
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="navigasi.html">HOME <span class="sr-only">(current)</span></a></li>
+				<li class="dropdown">
+				<li class="alt"><a href="order.html">ORDER<span class="sr-only">(current)</span></a></li>
+				<li class="dropdown">
+				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MENU <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="makanan.html">Menu Makanan</a></li>
+				<li><a href="minuman.html">Menu Minuman</a></li>
+				<li><a href="snack.html">Snack</a></li>
+				</ul>
+			</li>
+				</ul>
+			</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+				<span class="glyphicon glyphicon-user" aria-hidden="true"></span> Admin <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="menulogin.html">Login</a></li>
+				</ul>
+			</li>
+			</ul>
+		</div>
+		</div>
+	</nav>
+		<div class="container">
+			<div class="row">
+			 <div class="col-sm-12">   
+        		<h3><p>BEST-SELLING ORDER THIS MONTH !!!</p></h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<ul class="list-group">
+				  <li class="list-group-item">SPAGHETTI<span class="badge">500</span></li>
+				  <li class="list-group-item">STEAK<span class="badge">300</span></li>
+				  <li class="list-group-item">AYAM GULAI KAMPUNG<span class="badge">250</span></li>
+				  <li class="list-group-item">CHEESE BURGER<span class="badge">150</span></li>
+				  <li class="list-group-item">AYAM BAKAR<span class="badge">120</span></li>
+				  <li class="list-group-item">SATE TAICHAN<span class="badge">100</span></li>
+				 </ul>
+			</div>
+			<div class="col-md-3">
+				<img src="images/makanan1.jpg" class="img-thumbnail" alt="Spagheti">
+				<div class="carousel-caption">
+				<a class="btn btn-danger btn-sm" href="order.html" role="button">TOP ORDER</a>
+			</div>
+			</div>
+		<div class="col-md-3">
+				<img src="images/makanan2.jpg" class="img-thumbnail" alt="steak">
+				<div class="carousel-caption">
+				<a class="btn btn-danger btn-sm" href="order.html" role="button">TOP ORDER</a>
+			</div>
+			</div>
+		<div class="col-md-3">
+				<img src="images/makanan3.jpg" class="img-thumbnail" alt="Ayam Gulai Kampung">
+				<div class="carousel-caption">
+				<a class="btn btn-danger btn-sm" href="order.html" role="button">TOP ORDER</a>
+			</div>
+			</div>
+			<div class="col-md-3">
+				<img src="images/makanan4.jpg" class="img-thumbnail" alt="Alpukat">
+				<div class="carousel-caption">
+				<a class="btn btn-danger btn-sm" href="order.html" role="button">TOP ORDER</a>
+			</div>
+			</div>
+			<div class="col-md-3">
+				<img src="images/makanan5.jpg" class="img-thumbnail" alt="Papaya">
+				<div class="carousel-caption">
+				<a class="btn btn-danger btn-sm" href="order.html" role="button">TOP ORDER</a>
+			</div>
+			</div>
+			<div class="col-md-3">
+				<img src="images/makanan9.jpg" class="img-thumbnail" alt="Jeruk">
+				<div class="carousel-caption">
+				<a class="btn btn-danger btn-sm" href="order.html" role="button">TOP ORDER</a>
+			</div>
+			</div>
+		</div>
+	<hr class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h6><strong><p>MY CAFFE</p></strong>
+				<p>Website ini di buat sebagai sarana untuk memudahkan para konsumen dalam memesan menu-menu yang ada di My Caffe, sebagai bentuk apresiasi dari costumer kepada konsumen terlebih lagi kepada pelanggan setia My Caffe. </p></h6>
+			</div>
+			<div class="col-md-4">
+				<h6><strong><p>CONTACT</p></strong>
+				<p>Facebook		: mycaffe.officialshop</p>
+				<p>instagram	: mycaffe.since2020</p>
+				<p>Email		: mycaffe2020@gmail.com</p>
+				<p>Telephone	: 0821 6495 1835</p></h6>
+			</div>
+			<div class="col-md-4">
+				<h6><strong><p>BOOTSTRAP</p></strong>
+				<p>Web ini menggunakan BOOTSTRAP 3 dan dibuat untuk memenuhi tugas akhir dari mata kuliah Pemograman Web 1 dengan mengikuti prosedur yang telah di pelajari pada minggu-minggu sebelumnya.</p></h6>
+			</div>
+		</div>
+	</div>
+	<hr class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="copyright">
+					<h6><strong>Create by</strong> Puspita Sari Br Ginting 2022<i class= "far far-copyright"></i><p></h6>
+				</div>
+				</div>
+			</div>
+		</div>
+	<script src="bootstrap/js/jQuery.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
